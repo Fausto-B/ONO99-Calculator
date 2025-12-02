@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="OrangeNumbers">#b27921</color>
+    <color name="GreenForReset">#04a26f</color>
+    <color name="GrayForOno99">#3c595f</color>
+    <color name="BlueForMinus">#67b9c5</color>
+    <color name="RedForBack">#e3273f</color>
+</resources>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainCalculator">
+
+    <TextView
+        android:id="@+id/MainNumber"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="50dp"
+        android:autoSizeMaxTextSize="200dp"
+        android:autoSizeMinTextSize="1dp"
+        android:autoSizeStepGranularity="1sp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/_0"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/MainNumber">
+
+        <!-- Fila 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/_1"
+                android:autoSizeMinTextSize="1dp"
+                android:autoSizeMaxTextSize="200dp"
+                android:autoSizeStepGranularity="1sp"
+                android:autoSizeTextType="uniform"
+                android:maxLines="1"
+                android:ellipsize="none"
+                android:backgroundTint="@color/OrangeNumbers"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/_2"
+                android:autoSizeMinTextSize="1dp"
+                android:autoSizeMaxTextSize="200dp"
+                android:autoSizeStepGranularity="1sp"
+                android:autoSizeTextType="uniform"
+                android:maxLines="1"
+                android:ellipsize="none"
+                android:backgroundTint="@color/OrangeNumbers"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/_3"
+                android:autoSizeMinTextSize="1dp"
+                android:autoSizeMaxTextSize="200dp"
+                android:autoSizeStepGranularity="1sp"
+                android:autoSizeTextType="uniform"
+                android:maxLines="1"
+                android:ellipsize="none"
+                android:backgroundTint="@color/OrangeNumbers"
+                />
+        </LinearLayout>
+
+        <!-- Fila 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/_4"
+                android:autoSizeMinTextSize="1dp"
+                android:autoSizeMaxTextSize="200dp"
+                android:autoSizeStepGranularity="1sp"
+                android:autoSizeTextType="uniform"
+                android:maxLines="1"
+                android:ellipsize="none"
+                android:backgroundTint="@color/OrangeNumbers"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/_5"
+                android:autoSizeMinTextSize="1dp"
+                android:autoSizeMaxTextSize="200dp"
+                android:autoSizeStepGranularity="1sp"
+                android:autoSizeTextType="uniform"
+                android:maxLines="1"
+                android:ellipsize="none"
+                android:backgroundTint="@color/OrangeNumbers"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/_6"
+                android:autoSizeMinTextSize="1dp"
+                android:autoSizeMaxTextSize="200dp"
+                android:autoSizeStepGranularity="1sp"
+                android:autoSizeTextType="uniform"
+                android:maxLines="1"
+                android:ellipsize="none"
+                android:backgroundTint="@color/OrangeNumbers"/>
+        </LinearLayout>
+
+        <!-- Fila 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/_7"
+                android:autoSizeMinTextSize="1dp"
+                android:autoSizeMaxTextSize="200dp"
+                android:autoSizeStepGranularity="1sp"
+                android:autoSizeTextType="uniform"
+                android:maxLines="1"
+                android:ellipsize="none"
+                android:backgroundTint="@color/OrangeNumbers"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/_8"
+                android:autoSizeMinTextSize="1dp"
+                android:autoSizeMaxTextSize="200dp"
+                android:autoSizeStepGranularity="1sp"
+                android:autoSizeTextType="uniform"
+                android:maxLines="1"
+                android:ellipsize="none"
+                android:backgroundTint="@color/OrangeNumbers"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/_9"
+                android:autoSizeMinTextSize="1dp"
+                android:autoSizeMaxTextSize="200dp"
+                android:autoSizeStepGranularity="1sp"
+                android:autoSizeTextType="uniform"
+                android:maxLines="1"
+                android:ellipsize="none"
+                android:backgroundTint="@color/OrangeNumbers"/>
+        </LinearLayout>
+
+        <!-- Fila 4 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/_10"
+                android:autoSizeMinTextSize="1dp"
+                android:autoSizeMaxTextSize="200dp"
+                android:autoSizeStepGranularity="1sp"
+                android:autoSizeTextType="uniform"
+                android:maxLines="1"
+                android:ellipsize="none"
+                android:backgroundTint="@color/BlueForMinus"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/_plus10"
+                android:autoSizeMinTextSize="1dp"
+                android:autoSizeMaxTextSize="200dp"
+                android:autoSizeStepGranularity="1sp"
+                android:autoSizeTextType="uniform"
+                android:maxLines="1"
+                android:ellipsize="none"
+                android:backgroundTint="@color/OrangeNumbers"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/_minus0"
+                android:autoSizeMinTextSize="1dp"
+                android:autoSizeMaxTextSize="200dp"
+                android:autoSizeStepGranularity="1sp"
+                android:autoSizeTextType="uniform"
+                android:maxLines="1"
+                android:ellipsize="none"
+                android:backgroundTint="@color/OrangeNumbers"/>
+        </LinearLayout>
+
+        <!-- Fila 5 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/back"
+                android:autoSizeMinTextSize="1dp"
+                android:autoSizeMaxTextSize="200dp"
+                android:autoSizeStepGranularity="1sp"
+                android:autoSizeTextType="uniform"
+                android:maxLines="1"
+                android:ellipsize="none"
+                android:backgroundTint="@color/RedForBack"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:autoSizeMaxTextSize="200dp"
+                android:autoSizeMinTextSize="1dp"
+                android:autoSizeStepGranularity="1sp"
+                android:autoSizeTextType="uniform"
+                android:gravity="center"
+                android:text="@string/ono99"
+                android:maxLines="1"
+                android:ellipsize="none"
+                android:backgroundTint="@color/GrayForOno99"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:autoSizeMaxTextSize="200dp"
+                android:autoSizeMinTextSize="1dp"
+                android:autoSizeStepGranularity="1sp"
+                android:autoSizeTextType="uniform"
+                android:gravity="center"
+                android:text="@string/reset"
+                android:maxLines="1"
+                android:ellipsize="none"
+                android:backgroundTint="@color/GreenForReset"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/MainText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/calculadora_de_ono99"
+        android:textAlignment="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/MainNumber"
+        android:autoSizeMaxTextSize="300dp"
+        android:autoSizeMinTextSize="1dp"
+        android:autoSizeStepGranularity="1sp"
+        android:autoSizeTextType="uniform"
+        android:gravity="center"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
