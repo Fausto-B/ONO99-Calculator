@@ -5,13 +5,15 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainCalculator">
+    tools:context=".MainCalculator"
+    android:fitsSystemWindows="true"
+    >
 
     <TextView
         android:id="@+id/MainNumber"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_marginTop="50dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="110dp"
         android:autoSizeMaxTextSize="200dp"
         android:autoSizeMinTextSize="1dp"
         android:autoSizeStepGranularity="1sp"
@@ -40,19 +42,22 @@
             android:orientation="horizontal">
 
             <Button
+                android:id="@+id/btnplus1"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/_1"
-                android:autoSizeMinTextSize="1dp"
                 android:autoSizeMaxTextSize="200dp"
+                android:autoSizeMinTextSize="1dp"
                 android:autoSizeStepGranularity="1sp"
                 android:autoSizeTextType="uniform"
-                android:maxLines="1"
+                android:backgroundTint="@color/OrangeNumbers"
                 android:ellipsize="none"
-                android:backgroundTint="@color/OrangeNumbers"/>
+                android:maxLines="1"
+                android:onClick="plus1"
+                android:text="@string/_1" />
 
             <Button
+                android:id="@+id/btnplus2"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -63,9 +68,11 @@
                 android:autoSizeTextType="uniform"
                 android:maxLines="1"
                 android:ellipsize="none"
-                android:backgroundTint="@color/OrangeNumbers"/>
+                android:backgroundTint="@color/OrangeNumbers"
+                android:onClick="plus2"/>
 
             <Button
+                android:id="@+id/btnplus3"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -77,6 +84,7 @@
                 android:maxLines="1"
                 android:ellipsize="none"
                 android:backgroundTint="@color/OrangeNumbers"
+                android:onClick="plus3"
                 />
         </LinearLayout>
 
@@ -88,6 +96,7 @@
             android:orientation="horizontal">
 
             <Button
+                android:id="@+id/btnplus4"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -98,9 +107,11 @@
                 android:autoSizeTextType="uniform"
                 android:maxLines="1"
                 android:ellipsize="none"
-                android:backgroundTint="@color/OrangeNumbers"/>
+                android:backgroundTint="@color/OrangeNumbers"
+                android:onClick="plus4"/>
 
             <Button
+                android:id="@+id/btnplus5"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -111,9 +122,11 @@
                 android:autoSizeTextType="uniform"
                 android:maxLines="1"
                 android:ellipsize="none"
-                android:backgroundTint="@color/OrangeNumbers"/>
+                android:backgroundTint="@color/OrangeNumbers"
+                android:onClick="plus5"/>
 
             <Button
+                android:id="@+id/btnplus6"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -124,7 +137,8 @@
                 android:autoSizeTextType="uniform"
                 android:maxLines="1"
                 android:ellipsize="none"
-                android:backgroundTint="@color/OrangeNumbers"/>
+                android:backgroundTint="@color/OrangeNumbers"
+                android:onClick="plus6"/>
         </LinearLayout>
 
         <!-- Fila 3 -->
@@ -135,6 +149,7 @@
             android:orientation="horizontal">
 
             <Button
+                android:id="@+id/btnplus7"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -145,9 +160,11 @@
                 android:autoSizeTextType="uniform"
                 android:maxLines="1"
                 android:ellipsize="none"
-                android:backgroundTint="@color/OrangeNumbers"/>
+                android:backgroundTint="@color/OrangeNumbers"
+                android:onClick="plus7"/>
 
             <Button
+                android:id="@+id/btnplus8"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -158,9 +175,11 @@
                 android:autoSizeTextType="uniform"
                 android:maxLines="1"
                 android:ellipsize="none"
-                android:backgroundTint="@color/OrangeNumbers"/>
+                android:backgroundTint="@color/OrangeNumbers"
+                android:onClick="plus8"/>
 
             <Button
+                android:id="@+id/btnplus9"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -171,7 +190,8 @@
                 android:autoSizeTextType="uniform"
                 android:maxLines="1"
                 android:ellipsize="none"
-                android:backgroundTint="@color/OrangeNumbers"/>
+                android:backgroundTint="@color/OrangeNumbers"
+                android:onClick="plus9"/>
         </LinearLayout>
 
         <!-- Fila 4 -->
@@ -182,6 +202,7 @@
             android:orientation="horizontal">
 
             <Button
+                android:id="@+id/btnminus10"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -192,9 +213,11 @@
                 android:autoSizeTextType="uniform"
                 android:maxLines="1"
                 android:ellipsize="none"
-                android:backgroundTint="@color/BlueForMinus"/>
+                android:backgroundTint="@color/BlueForMinus"
+                android:onClick="minus10"/>
 
             <Button
+                android:id="@+id/btnplus10"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -205,9 +228,11 @@
                 android:autoSizeTextType="uniform"
                 android:maxLines="1"
                 android:ellipsize="none"
-                android:backgroundTint="@color/OrangeNumbers"/>
+                android:backgroundTint="@color/OrangeNumbers"
+                android:onClick="plus10"/>
 
             <Button
+                android:id="@+id/btnplus0"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -218,7 +243,8 @@
                 android:autoSizeTextType="uniform"
                 android:maxLines="1"
                 android:ellipsize="none"
-                android:backgroundTint="@color/OrangeNumbers"/>
+                android:backgroundTint="@color/OrangeNumbers"
+                android:onClick="plus0"/>
         </LinearLayout>
 
         <!-- Fila 5 -->
@@ -239,7 +265,9 @@
                 android:autoSizeTextType="uniform"
                 android:maxLines="1"
                 android:ellipsize="none"
-                android:backgroundTint="@color/RedForBack"/>
+                android:backgroundTint="@color/RedForBack"
+                android:onClick="btnBack"
+                android:id="@+id/btnback"/>
 
             <Button
                 android:layout_width="0dp"
@@ -253,7 +281,9 @@
                 android:text="@string/ono99"
                 android:maxLines="1"
                 android:ellipsize="none"
-                android:backgroundTint="@color/GrayForOno99"/>
+                android:backgroundTint="@color/GrayForOno99"
+                android:onClick="btnONO"
+                android:id="@+id/btnono"/>
 
             <Button
                 android:layout_width="0dp"
@@ -267,7 +297,9 @@
                 android:text="@string/reset"
                 android:maxLines="1"
                 android:ellipsize="none"
-                android:backgroundTint="@color/GreenForReset"/>
+                android:backgroundTint="@color/GreenForReset"
+                android:onClick="btnReset"
+                android:id="@+id/btnreset"/>
         </LinearLayout>
 
     </LinearLayout>
@@ -286,6 +318,12 @@
         android:autoSizeTextType="uniform"
         android:gravity="center"
         />
+
+    <androidx.constraintlayout.widget.Guideline android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <androidx.constraintlayout.widget.Guideline android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

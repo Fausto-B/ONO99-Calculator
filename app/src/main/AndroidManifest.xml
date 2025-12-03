@@ -12,6 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ContadorDeONO99">
 
+
         <activity
             android:name=".MainCalculator"
             android:exported="true">
@@ -23,6 +24,8 @@
 
         </activity>
 
+
     </application>
+
 
 </manifest>
