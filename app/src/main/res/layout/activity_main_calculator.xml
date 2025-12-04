@@ -8,6 +8,17 @@
     tools:context=".MainCalculator"
     android:fitsSystemWindows="true"
     >
+    <ImageButton
+        android:id="@+id/btnMenuHistory"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="6dp"
+        android:background="@android:color/transparent"
+        android:src="@android:drawable/ic_menu_more"
+        android:contentDescription="@string/historial"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="8dp" />
 
     <TextView
         android:id="@+id/MainNumber"
@@ -53,7 +64,6 @@
                 android:backgroundTint="@color/OrangeNumbers"
                 android:ellipsize="none"
                 android:maxLines="1"
-                android:onClick="plus1"
                 android:text="@string/_1" />
 
             <Button
@@ -68,8 +78,7 @@
                 android:autoSizeTextType="uniform"
                 android:maxLines="1"
                 android:ellipsize="none"
-                android:backgroundTint="@color/OrangeNumbers"
-                android:onClick="plus2"/>
+                android:backgroundTint="@color/OrangeNumbers"/>
 
             <Button
                 android:id="@+id/btnplus3"
@@ -84,7 +93,6 @@
                 android:maxLines="1"
                 android:ellipsize="none"
                 android:backgroundTint="@color/OrangeNumbers"
-                android:onClick="plus3"
                 />
         </LinearLayout>
 
@@ -107,8 +115,7 @@
                 android:autoSizeTextType="uniform"
                 android:maxLines="1"
                 android:ellipsize="none"
-                android:backgroundTint="@color/OrangeNumbers"
-                android:onClick="plus4"/>
+                android:backgroundTint="@color/OrangeNumbers"/>
 
             <Button
                 android:id="@+id/btnplus5"
@@ -122,8 +129,7 @@
                 android:autoSizeTextType="uniform"
                 android:maxLines="1"
                 android:ellipsize="none"
-                android:backgroundTint="@color/OrangeNumbers"
-                android:onClick="plus5"/>
+                android:backgroundTint="@color/OrangeNumbers"/>
 
             <Button
                 android:id="@+id/btnplus6"
@@ -137,8 +143,7 @@
                 android:autoSizeTextType="uniform"
                 android:maxLines="1"
                 android:ellipsize="none"
-                android:backgroundTint="@color/OrangeNumbers"
-                android:onClick="plus6"/>
+                android:backgroundTint="@color/OrangeNumbers"/>
         </LinearLayout>
 
         <!-- Fila 3 -->
@@ -160,8 +165,7 @@
                 android:autoSizeTextType="uniform"
                 android:maxLines="1"
                 android:ellipsize="none"
-                android:backgroundTint="@color/OrangeNumbers"
-                android:onClick="plus7"/>
+                android:backgroundTint="@color/OrangeNumbers"/>
 
             <Button
                 android:id="@+id/btnplus8"
@@ -175,8 +179,7 @@
                 android:autoSizeTextType="uniform"
                 android:maxLines="1"
                 android:ellipsize="none"
-                android:backgroundTint="@color/OrangeNumbers"
-                android:onClick="plus8"/>
+                android:backgroundTint="@color/OrangeNumbers"/>
 
             <Button
                 android:id="@+id/btnplus9"
@@ -190,8 +193,7 @@
                 android:autoSizeTextType="uniform"
                 android:maxLines="1"
                 android:ellipsize="none"
-                android:backgroundTint="@color/OrangeNumbers"
-                android:onClick="plus9"/>
+                android:backgroundTint="@color/OrangeNumbers"/>
         </LinearLayout>
 
         <!-- Fila 4 -->
@@ -213,8 +215,7 @@
                 android:autoSizeTextType="uniform"
                 android:maxLines="1"
                 android:ellipsize="none"
-                android:backgroundTint="@color/BlueForMinus"
-                android:onClick="minus10"/>
+                android:backgroundTint="@color/BlueForMinus"/>
 
             <Button
                 android:id="@+id/btnplus10"
@@ -228,8 +229,7 @@
                 android:autoSizeTextType="uniform"
                 android:maxLines="1"
                 android:ellipsize="none"
-                android:backgroundTint="@color/OrangeNumbers"
-                android:onClick="plus10"/>
+                android:backgroundTint="@color/OrangeNumbers"/>
 
             <Button
                 android:id="@+id/btnplus0"
@@ -243,8 +243,7 @@
                 android:autoSizeTextType="uniform"
                 android:maxLines="1"
                 android:ellipsize="none"
-                android:backgroundTint="@color/OrangeNumbers"
-                android:onClick="plus0"/>
+                android:backgroundTint="@color/OrangeNumbers"/>
         </LinearLayout>
 
         <!-- Fila 5 -->
@@ -266,7 +265,6 @@
                 android:maxLines="1"
                 android:ellipsize="none"
                 android:backgroundTint="@color/RedForBack"
-                android:onClick="btnBack"
                 android:id="@+id/btnback"/>
 
             <Button
@@ -282,7 +280,6 @@
                 android:maxLines="1"
                 android:ellipsize="none"
                 android:backgroundTint="@color/GrayForOno99"
-                android:onClick="btnONO"
                 android:id="@+id/btnono"/>
 
             <Button
@@ -298,7 +295,6 @@
                 android:maxLines="1"
                 android:ellipsize="none"
                 android:backgroundTint="@color/GreenForReset"
-                android:onClick="btnReset"
                 android:id="@+id/btnreset"/>
         </LinearLayout>
 
