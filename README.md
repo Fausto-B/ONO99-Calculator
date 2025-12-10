@@ -1,4 +1,4 @@
-&nbsp;Descripción (Español)
+ 📱 Descripción (Español)
 
 
 
@@ -12,31 +12,31 @@ Pensada para ser rápida, clara y cómoda de usar.
 
 
 
-&nbsp;Funciones (Versión 1.0)
+✨ Funciones (Versión 1.0)
 
 
 
-&nbsp;Suma de valores rápidos: +1 a +10
+✅ Suma de valores rápidos: +1 a +10
 
 
 
-&nbsp;Resta rápida con botón -10
+✅ Resta rápida con botón -10
 
 
 
-&nbsp;Botón Back para regresar al estado anterior
+✅ Botón Back para regresar al estado anterior
 
 
 
-&nbsp;Botón Reset que limpia el número y el historial
+✅ Botón Reset que limpia el número y el historial
 
 
 
-&nbsp;Historial desplegable con menú (ícono de tres líneas)
+✅ Historial desplegable con menú (ícono de tres líneas)
 
 
 
-&nbsp;Cada historial guarda:
+✅ Cada historial guarda:
 
 
 
@@ -48,23 +48,23 @@ Resultado final
 
 
 
-&nbsp;Puedes tocar cualquier paso del historial para volver a ese punto
+✅ Puedes tocar cualquier paso del historial para volver a ese punto
 
 
 
-&nbsp;Vibración háptica al pulsar botones
+✅ Vibración háptica al pulsar botones
 
 
 
-&nbsp;Bloqueo automático de botones para no superar 99
+✅ Bloqueo automático de botones para no superar 99
 
 
 
-&nbsp;Interfaz centrada y optimizada para una sola mano
+✅ Interfaz centrada y optimizada para una sola mano
 
 
 
-&nbsp;Cómo funciona
+🧠 Cómo funciona
 
 
 
@@ -84,7 +84,7 @@ Cuando presionas Back o seleccionas un paso del historial, la app restaura ese e
 
 
 
-&nbsp;Tecnologías
+🛠️ Tecnologías
 
 
 
@@ -92,13 +92,11 @@ Lenguaje: Kotlin
 
 
 
-
-
 Plataforma: Android (API 24+)
 
 
 
-&nbsp;Enlaces
+🔗 Enlaces
 
 
 
@@ -110,7 +108,7 @@ YouTube: https://www.youtube.com/@ZFausto
 
 
 
-&nbsp;Autor
+👨‍💻 Autor
 
 
 
@@ -130,7 +128,7 @@ An interactive Android calculator inspired by the ONO 99 card game, designed to 
 
 
 
-&nbsp;Description
+📱 Description
 
 
 
@@ -144,31 +142,31 @@ Built to be fast, simple, and comfortable.
 
 
 
-&nbsp;Features (Version 1.0)
+✨ Features (Version 1.0)
 
 
 
-&nbsp;Quick add buttons: +1 to +10
+✅ Quick add buttons: +1 to +10
 
 
 
-&nbsp;Quick subtract button: -10
+✅ Quick subtract button: -10
 
 
 
-&nbsp;Back button to return to previous value
+✅ Back button to return to previous value
 
 
 
-&nbsp;Reset button clears value and history
+✅ Reset button clears value and history
 
 
 
-&nbsp;Dropdown history menu (three-lines icon)
+✅ Dropdown history menu (three-lines icon)
 
 
 
-&nbsp;Each history item stores:
+✅ Each history item stores:
 
 
 
@@ -180,23 +178,23 @@ Final result
 
 
 
-&nbsp;Tap any history item to restore that state
+✅ Tap any history item to restore that state
 
 
 
-&nbsp;Haptic vibration feedback
+✅ Haptic vibration feedback
 
 
 
-&nbsp;Automatic button blocking to avoid passing 99
+✅ Automatic button blocking to avoid passing 99
 
 
 
-&nbsp;Clean, centered UI
+✅ Clean, centered UI
 
 
 
-&nbsp;How it works
+🧠 How it works
 
 
 
@@ -216,7 +214,7 @@ You can navigate backward using Back or selecting a history entry.
 
 
 
-&nbsp;Technologies
+🛠️ Technologies
 
 
 
